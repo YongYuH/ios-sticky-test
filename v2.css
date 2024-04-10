@@ -1,0 +1,23 @@
+.header {
+    position: sticky;
+    background-color: yellow;
+    height: 200px;
+    top: 0;
+    transform: none;
+}
+
+.header--moved-up {
+    transform: translateY(-200px);
+}
+
+.mini-header {
+    position: fixed;
+    inset-block-start: -60px;
+    height: 60px;
+    width: 100%;
+    background-color: green;
+}
+
+.mini-header--moved-down {
+    inset-block-start: 198px;
+}
